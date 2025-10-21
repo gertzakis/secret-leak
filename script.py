@@ -1,4 +1,6 @@
 import os
+import platform
 
-
-print("test")
+print(os.name)
+print(platform.system())
+print(platform.release())
